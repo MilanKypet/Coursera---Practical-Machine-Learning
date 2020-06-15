@@ -153,7 +153,7 @@ fancyRpartPlot(modFit_DT, cex=0.5)
 ```
 
 
-![png](output_21_0.png)
+![png](Plots/output_21_0.png)
 
 
 
@@ -208,7 +208,7 @@ plot(CM_DT$table, col=CM_DT$byClass, main=paste("Decision Tree: Accuracy =",
 ```
 
 
-![png](output_23_0.png)
+![png](Plots/output_23_0.png)
 
 
 ### <font color="SteelBlue"> Prediction with Random Forest</font>
@@ -246,7 +246,7 @@ plot(modFit_RF)
 ```
 
 
-![png](output_26_0.png)
+![png](Plots/output_26_0.png)
 
 
 
@@ -301,7 +301,7 @@ plot(CM_RF$table, col=CM_RF$byClass, main=paste("Random Forest: Accuracy =",
 ```
 
 
-![png](output_28_0.png)
+![png](Plots/output_28_0.png)
 
 
 ### <font color="SteelBlue"> Prediction with Generalized Boosted Model</font>
@@ -328,7 +328,7 @@ plot(modFit_GBM, ylim=c(0.8, 1))
 ```
 
 
-![png](output_31_0.png)
+![png](Plots/output_31_0.png)
 
 
 
